@@ -36,7 +36,6 @@ execute{
 for(var i in I_range)
 for(var j in J_range)
 fi_brojilac[i][j] = Math.exp(beta*(Math.abs(potrosac[i].x - objekat[j].x)+Math.abs(potrosac[i].y - objekat[j].y)))
-//writeln("Brojilac i=1, j=1: "+fi_brojilac[1][1]);
 }
 
 execute{
@@ -46,14 +45,12 @@ fi_imenilac[i] = 0;
 for(var k in K_range)
 fi_imenilac[i] = fi_imenilac[i] + Math.exp(beta*(Math.abs(potrosac[i].x-konkurencija[k].x)+Math.abs(potrosac[i].y-konkurencija[k].y)));
 }
-//writeln("Imenilac je "+fi_imenilac[1]);
 }
 
 execute{
 for(var i in I_range)
 for(var j in J_range)
 fi[i][j] = fi_brojilac[i][j]/fi_imenilac[i];
-//writeln("Prvi clan je: "+fi[1][1]);
 }
 
 
