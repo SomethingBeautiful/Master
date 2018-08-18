@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings version="2">
+  <category name="cplex">
+    <setting name="datacheck" value="true"/>
+    <setting name="tuningdisplay" value="3"/>
+    <setting name="eprhs" value="1.0E-9"/>
+  </category>
+</settings>
