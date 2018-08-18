@@ -1,1 +1,1 @@
-# Master rad: Uporedna analiza matematičkih modela lokacijskog problema sa nademtanjem pri probabilističkom ponašanju potrošača
+# Master rad: Uporedna analiza matematičkih modela lokacijskog problema sa nadmetanjem pri probabilističkom ponašanju potrošača
